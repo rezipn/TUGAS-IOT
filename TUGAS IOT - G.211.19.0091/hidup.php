@@ -3,7 +3,7 @@
 
     $host   = "riset.revolusi-it.com";
     $port     = 1883;
-    $username = "G.211.19.0055";
+    $username = "G.211.19.0091";
     $password = "";
     
     $topic = "iot/kendali";
@@ -12,7 +12,7 @@
 
     if (empty($message)) 
     {
-        $message = "mati";
+        $message = "hidup";
     }
 
     $mqtt = new Bluerhinos\phpMQTT($host, $port, "ClientID".rand());

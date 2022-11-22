@@ -3,7 +3,7 @@
 
     $host   = "riset.revolusi-it.com";
     $port     = 1883;
-    $username = "G.211.19.0055";
+    $username = "G.211.19.0091";
     $password = "";
     $mqtt = new bluerhinos\phpMQTT($host, $port, "ClientID".rand());
     if(!$mqtt->connect(true,NULL,$username,$password)){

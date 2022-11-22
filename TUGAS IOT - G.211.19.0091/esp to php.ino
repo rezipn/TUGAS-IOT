@@ -43,7 +43,7 @@ void reconnect() {
  while (!client.connected()) {
  Serial.print("Menghubungkan diri ke MQTT Server : "+(String)mqtt_server);
  // Attempt to connect
- if (client.connect("G.211.19.0055")) {
+ if (client.connect("G.211.19.0091")) {
   Serial.println("connected");
   // ... and subscribe to topic
   client.subscribe(topik);
